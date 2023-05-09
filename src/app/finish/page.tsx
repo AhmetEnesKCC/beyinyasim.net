@@ -3,14 +3,16 @@
 import useQuestionStore from "@/state/useQuestionStore";
 
 import { useRouter } from "next/navigation";
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 
 const Finish = () => {
   const { questions, reset } = useQuestionStore();
   const router = useRouter();
-  if (questions.length === 0) {
-    router.push("/");
-  }
+  useEffect(() => {
+    if (questions.length === 0) {
+      router.push("/");
+    }
+  }, [questions]);
   const result = useMemo(() => {
     const length = questions.length;
     const sum = questions
