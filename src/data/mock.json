@@ -1,0 +1,309 @@
+[
+  {
+    "title": "Zengin olmanın en iyi yolu...",
+    "answers": [
+      { "title": "Piyango kazanmak", "weight": -10 },
+      { "title": "Çok çalışmak", "weight": 5 },
+      { "title": "Youtuber olmak", "weight": -10 },
+      { "title": "Yatırım yapmak", "weight": 10 }
+    ]
+  },
+  {
+    "title": "Bu hayatın anlamı nedir ?",
+    "answers": [
+      { "title": "Zevk ve keyif", "weight": -10 },
+      { "title": "Dünyaya kattığın değer", "weight": 5 },
+      { "title": "Aile her şeydir", "weight": 10 },
+      { "title": "Arkadaşlarım", "weight": 0 }
+    ]
+  },
+  {
+    "title": "Haftasonu eğlencesi ne ifade ediyor...",
+    "answers": [
+      { "title": "Ne kadar kalabalık o kadar eğlenceli", "weight": -10 },
+      { "title": "3 - 5 arkadaşla mangala gitmek", "weight": 5 },
+      {
+        "title": "Telefonumu kapatırım, açarım dizimi koltuka da uyuyakalırım",
+        "weight": 10
+      }
+    ]
+  },
+  {
+    "title": "Akıllı saat...",
+    "answers": [
+      { "title": "Devrim", "weight": 0 },
+      { "title": "Gereksiz alet", "weight": 5 },
+      { "title": "Havalı", "weight": -10 },
+      { "title": "Pahalı", "weight": 5 }
+    ]
+  },
+  {
+    "title": "Favori uygulaman ne",
+    "answers": [
+      { "title": "Tiktok", "weight": -10 },
+      { "title": "Instagram", "weight": 0 },
+      { "title": "Twitter", "weight": 5 },
+      { "title": "Facebook", "weight": 20 }
+    ]
+  },
+  {
+    "title": "İnanılmaz yorucu bir gün ardından eve geldin",
+    "answers": [
+      {
+        "title": "Odama geçerim alırım telefonumu boş boş aşağı kaydırırım 0",
+        "weight": 0
+      },
+      {
+        "title": "Giyerim terliğimi, çekerim pijamamı, geçerim TV karşısına",
+        "weight": 15
+      }
+    ]
+  },
+  {
+    "title": "Çok acıktın ancak saat 2...",
+    "answers": [
+      { "title": "Acil açık neresi varsa sipariş veririm", "weight": -5 },
+      { "title": "Geçerim mutfağa üşenmem yaparım makarnamı", "weight": 10 },
+      { "title": "Uyku her şeyden daha önemli, sabah iş var ", "weight": 20 }
+    ]
+  },
+  {
+    "title": "Trafikte elemanın biri tarafından sollandın...",
+    "answers": [
+      { "title": "Yanlış adama çattı, yarış başlasın -10", "weight": -10 },
+      {
+        "title": "Işıklarda benden çekeceği var levyem  koltuğumun altında hazır",
+        "weight": 5
+      },
+      {
+        "title": "Hemen plakasını alırım, CİMER’e şikayet ederim ",
+        "weight": 15
+      }
+    ]
+  },
+  {
+    "title": "Canın aşırı tatlı çekti...",
+    "answers": [
+      { "title": "Magnum iyi gider", "weight": -5 },
+      {
+        "title": "Magnolya favori tatlım",
+        "weight": 5
+      },
+      {
+        "title": "Klasikten şaşmam, sütlaç iyi gider",
+        "weight": 15
+      }
+    ]
+  },
+  {
+    "title": "Tarzını göster...",
+    "answers": [
+      {
+        "title": "Eşofman artı sweatshirt ile düğünüme bile katılırım",
+        "weight": 0
+      },
+      {
+        "title": "Gömleksiz kendimi çıplak gibi hissediyorum ",
+        "weight": 10
+      },
+      {
+        "title": "Şapkam ve ceketim olmadan dışarı çıkmam ",
+        "weight": 20
+      }
+    ]
+  },
+  {
+    "title": "Bayram tatili geldi, nasıl değerlendirirsin...",
+    "answers": [
+      {
+        "title": "Otel rezervasyonum çoktan hazır iyi bir tatili hak ettim",
+        "weight": 5
+      },
+      {
+        "title": "Ailemsiz bir bayram düşünemiyorum ",
+        "weight": 15
+      }
+    ]
+  },
+  {
+    "title": "Şarkı tercihin",
+    "answers": [
+      {
+        "title": "Türkçe dinlemiyorum",
+        "weight": -10
+      },
+      {
+        "title": "90lar Türkçe Pop",
+        "weight": 10
+      },
+      {
+        "title": "Arabesk ve Türk Sanat Müziği",
+        "weight": 20
+      }
+    ]
+  },
+  {
+    "title": "Ferdi Özbeğen, Nükhet Duru, Müslüm Gürses, Kayahan kaç tanesini tanıyorsun?",
+    "answers": [
+      {
+        "title": "1",
+        "weight": -10
+      },
+      {
+        "title": "2",
+        "weight": 0
+      },
+      {
+        "title": "3",
+        "weight": 10
+      },
+      {
+        "title": "4",
+        "weight": 20
+      }
+    ]
+  },
+  {
+    "title": "Yemek yerken izlemelik bir şey seç desem",
+    "answers": [
+      {
+        "title": "Konuşanlar",
+        "weight": -10
+      },
+      {
+        "title": "Friends",
+        "weight": 0
+      },
+      {
+        "title": "Breaking Bad",
+        "weight": 10
+      },
+      {
+        "title": "Kovboy filmi",
+        "weight": 20
+      }
+    ]
+  },
+  {
+    "title": "Twitter...",
+    "answers": [
+      {
+        "title": "Sarıyor",
+        "weight": -15
+      },
+      {
+        "title": "Yorucu",
+        "weight": 0
+      },
+      {
+        "title": "Gerekli",
+        "weight": 5
+      },
+      {
+        "title": "Sinir Bozucu",
+        "weight": 15
+      }
+    ]
+  },
+  {
+    "title": "Alaaddin’in Sihirli Lambasından 1 dilek hakkın var. (Sonsuz dilek hakkı yok bi akıllı sen değilsin",
+    "answers": [
+      {
+        "title": "Aşk",
+        "weight": -5
+      },
+      {
+        "title": "Para",
+        "weight": 5
+      },
+      {
+        "title": "Ülkenin başına geçmek",
+        "weight": 10
+      },
+      {
+        "title": "Geçmişe gidip sadece bir pişmanlığı düzeltmek",
+        "weight": 20
+      }
+    ]
+  },
+  {
+    "title": "Hayalindeki tatili planla...",
+    "answers": [
+      {
+        "title": "Arkadaşlarla 1 hafta yazlık kiralarım,mangal, deniz, muhabbet",
+        "weight": 0
+      },
+      {
+        "title": "2 haftalık Avrupa seyahati",
+        "weight": 10
+      },
+      {
+        "title": "Ülkemin güzelliklerini görmeliyim, Karadeniz Turu beni bekle",
+        "weight": 20
+      }
+    ]
+  },
+  {
+    "title": "Doların hatırladığın en düşük seviyesi...",
+    "answers": [
+      {
+        "title": "5₺",
+        "weight": -20
+      },
+      {
+        "title": "2.5₺",
+        "weight": -10
+      },
+      {
+        "title": "Dolar 1.7₺ oldu diye bilgisayar alınmaz bu zamanda demiştim",
+        "weight": 10
+      },
+      {
+        "title": "Ne doları kardeşim bizim zamanımızda Mark vardı",
+        "weight": 20
+      }
+    ]
+  },
+  {
+    "title": "Haberlere nereden ulaşırsın...",
+    "answers": [
+      {
+        "title": "Twitter",
+        "weight": -5
+      },
+      {
+        "title": "Haber Siteleri",
+        "weight": 10
+      },
+      {
+        "title": "Televizyon",
+        "weight": 15
+      },
+      {
+        "title": "Gazete",
+        "weight": 20
+      }
+    ]
+  },
+  {
+    "title": "Birinden hoşlandın, bunu nasıl ifade edersin ?",
+    "answers": [
+      {
+        "title": "Snapchat’ten rahatsız ederim",
+        "weight": -20
+      },
+      {
+        "title": "Snapchat’ten rahatsız ederim",
+        "weight": 0
+      },
+      {
+        "title": "Kahve içmeye davet ederim",
+        "weight": 10
+      },
+      {
+        "title": "Yalnızlık iyidir, kafamı dinliyorum",
+        "weight": 15
+      }
+    ]
+  }
+]
