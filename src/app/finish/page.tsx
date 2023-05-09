@@ -15,9 +15,11 @@ const Finish = () => {
   }, [questions]);
   const result = useMemo(() => {
     const length = questions.length;
-    const sum = questions
-      .map((q) => q.selection?.weight)
-      .reduce((a, b) => a! + b!);
+    let sum = questions.map((q) => q.selection?.weight);
+    if (sum.length) {
+      sum = sum.reduce((a, b) => a! + b!);
+    }
+
     const min =
       Math.min(
         ...questions.map((q) => Math.min(...q.answers.map((a) => a.weight)))
