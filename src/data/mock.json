@@ -50,7 +50,7 @@
     "title": "İnanılmaz yorucu bir gün ardından eve geldin",
     "answers": [
       {
-        "title": "Odama geçerim alırım telefonumu boş boş aşağı kaydırırım 0",
+        "title": "Odama geçerim alırım telefonumu boş boş aşağı kaydırırım",
         "weight": 0
       },
       {
@@ -64,13 +64,13 @@
     "answers": [
       { "title": "Acil açık neresi varsa sipariş veririm", "weight": -5 },
       { "title": "Geçerim mutfağa üşenmem yaparım makarnamı", "weight": 10 },
-      { "title": "Uyku her şeyden daha önemli, sabah iş var ", "weight": 20 }
+      { "title": "Uyku her şeyden daha önemli, sabah iş var", "weight": 20 }
     ]
   },
   {
     "title": "Trafikte elemanın biri tarafından sollandın...",
     "answers": [
-      { "title": "Yanlış adama çattı, yarış başlasın -10", "weight": -10 },
+      { "title": "Yanlış adama çattı, yarış başlasın", "weight": -10 },
       {
         "title": "Işıklarda benden çekeceği var levyem  koltuğumun altında hazır",
         "weight": 5
@@ -103,11 +103,11 @@
         "weight": 0
       },
       {
-        "title": "Gömleksiz kendimi çıplak gibi hissediyorum ",
+        "title": "Gömleksiz kendimi çıplak gibi hissediyorum",
         "weight": 10
       },
       {
-        "title": "Şapkam ve ceketim olmadan dışarı çıkmam ",
+        "title": "Şapkam ve ceketim olmadan dışarı çıkmam",
         "weight": 20
       }
     ]
@@ -120,7 +120,7 @@
         "weight": 5
       },
       {
-        "title": "Ailemsiz bir bayram düşünemiyorum ",
+        "title": "Ailemsiz bir bayram düşünemiyorum",
         "weight": 15
       }
     ]
@@ -293,7 +293,7 @@
         "weight": -20
       },
       {
-        "title": "Snapchat’ten rahatsız ederim",
+        "title": "Ortak yönler ararım",
         "weight": 0
       },
       {

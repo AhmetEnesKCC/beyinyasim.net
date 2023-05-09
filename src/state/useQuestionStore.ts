@@ -58,10 +58,9 @@ const useQuestionStore = create<QuestionsState>()((set) => ({
     }),
   reset: () =>
     set((state) => {
-      state.questions.map((q) => ({ ...q }));
       return {
         ...state,
-        questions: state.questions.map((q) => ({ ...q })),
+        questions: state.questions.map((q) => ({ ...q, selection: null })),
         status: {
           step: 1,
           filled: 0,

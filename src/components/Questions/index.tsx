@@ -3,33 +3,15 @@
 import useQuestionStore from "@/state/useQuestionStore";
 import Status from "./Status";
 
-import { useEffect, useMemo } from "react";
+import { useMemo } from "react";
 
-import qData from "@/data/mock.json";
 import Question from "./Question";
 import Answers from "./Answers";
-import { nanoid } from "nanoid";
-import Button, {
-  BackButton,
-  FinishButton,
-  LastButton,
-  NextButton,
-} from "./Buttons";
+import { BackButton, FinishButton, LastButton, NextButton } from "./Buttons";
 import RenderIf from "../RenderIf";
 
 const Wrapper = () => {
-  const { questions, status, setQuestions } = useQuestionStore();
-
-  useEffect(() => {
-    setQuestions(
-      qData.map((qD) => ({
-        ...qD,
-        selection: null,
-        id: nanoid(),
-        answers: qD.answers.map((ans) => ({ ...ans, id: nanoid() })),
-      }))
-    );
-  }, []);
+  const { questions, status } = useQuestionStore();
 
   const currentQuestion = useMemo(() => {
     return questions[status.step - 1];
