@@ -18,7 +18,9 @@ const Wrapper = () => {
   }, [status, questions]);
 
   return (
-    <div className="shadow-md w-[80vw] flex flex-col bg-white px-3 py-4">
+    <div
+      className="shadow-md w-[80vw] flex flex-col bg-white dark:bg-gray-800 px-3 py-4 rounded-md transition-colors animate-fade-in"
+    >
       <Status length={questions.length} {...status} />
       <Question title={currentQuestion?.title} />
       <div className="flex gap-x-2 justify-between my-6">

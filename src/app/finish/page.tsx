@@ -51,7 +51,9 @@ const Finish = () => {
   };
 
   return (
-    <div className="shadow-md w-[60vw] flex flex-col items-center bg-white px-3 py-4 mx-auto mt-12">
+    <div
+      className="shadow-md w-[60vw] flex flex-col items-center bg-white dark:bg-gray-800 px-3 py-4 mx-auto mt-12 rounded-md transition-colors animate-fade-in"
+    >
       <h3 className="mb-8">Beyin Yaşın</h3>
       <h4 className="text-4xl text-main font-bold">
         {isNaN(result) ? "" : result}

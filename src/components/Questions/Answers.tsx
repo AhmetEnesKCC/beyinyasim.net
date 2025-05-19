@@ -14,7 +14,7 @@ const Answer: FC<
 
   return (
     <div
-      className={` bg-white hover:bg-[#F8F8F8] items-center border-black border-[1px] px-4 py-2 rounded-sm flex justify-between ${
+      className={` bg-white dark:bg-gray-700 hover:bg-[#F8F8F8] dark:hover:bg-gray-600 items-center border-black dark:border-gray-400 border-[1px] px-4 py-2 rounded-sm flex justify-between transition-colors animate-fade-in ${
         selected ? "!bg-main !text-white" : ""
       }`}
       onClick={() => {
@@ -22,7 +22,7 @@ const Answer: FC<
       }}
     >
       <p>{answer.title}</p>
-      <div className="flex items-center justify-center w-[30px] h-[30px] rounded-full bg-white border-2">
+      <div className="flex items-center justify-center w-[30px] h-[30px] rounded-full bg-white dark:bg-gray-800 border-2">
         <div
           className={`w-[16px] h-[16px] rounded-full ${
             selected ? "bg-main" : ""
