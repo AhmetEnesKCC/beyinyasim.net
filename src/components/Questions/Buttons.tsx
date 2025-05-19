@@ -38,7 +38,7 @@ const Button: ButtonsType = ({ label, type, disabled }) => {
   return (
     <button
       disabled={disabled ? disabled : false}
-      className={`flex-1 hover:bg-opacity-20 bg-main bg-opacity-5 font-bold text-main py-3 px-2 ${
+      className={`flex-1 hover:bg-opacity-20 bg-main bg-opacity-5 dark:bg-opacity-10 font-bold text-main py-3 px-2 rounded transition-colors ${
         disabled ? "!bg-slate-100 !text-black" : ""
       }`}
       onClick={handleClick}

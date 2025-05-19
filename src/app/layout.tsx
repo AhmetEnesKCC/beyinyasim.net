@@ -5,6 +5,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import { useEffect } from "react";
 import useQuestionStore from "@/state/useQuestionStore";
+import useThemeStore from "@/state/useThemeStore";
 import { nanoid } from "nanoid";
 
 import qData from "@/data/mock.json";
@@ -17,6 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const { setQuestions } = useQuestionStore();
+  const { theme, setTheme } = useThemeStore();
   useEffect(() => {
     document.title = "beyinyasim.net";
     if (localStorage.getItem("user-state") !== null) {
@@ -46,9 +48,27 @@ export default function RootLayout({
     });
     return () => unsubFromStore();
   }, []);
+
+  useEffect(() => {
+    const stored = localStorage.getItem("theme");
+    if (stored === "dark") {
+      setTheme("dark");
+    }
+  }, []);
+
+  useEffect(() => {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+    localStorage.setItem("theme", theme);
+  }, [theme]);
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body
+        className={`${inter.className} bg-white dark:bg-gray-900 text-black dark:text-white transition-colors min-h-screen`}
+      >
         <Header />
         {children}
       </body>
