@@ -14,20 +14,22 @@ const Answer: FC<
 
   return (
     <div
-      className={` bg-white dark:bg-gray-700 hover:bg-[#F8F8F8] dark:hover:bg-gray-600 items-center border-black dark:border-gray-400 border-[1px] px-4 py-2 rounded-sm flex justify-between transition-colors animate-fade-in ${
-        selected ? "!bg-main !text-white" : ""
+      className={`cursor-pointer items-center border border-gray-300 dark:border-gray-600 px-4 py-3 rounded-lg flex justify-between shadow-sm transition-all animate-fade-in ${
+        selected
+          ? "bg-main text-white hover:bg-main"
+          : "bg-white/60 dark:bg-gray-700/40 hover:bg-white/80 dark:hover:bg-gray-700/60"
       }`}
       onClick={() => {
         toggleUserSelect(questionId, answer);
       }}
     >
-      <p>{answer.title}</p>
-      <div className="flex items-center justify-center w-[30px] h-[30px] rounded-full bg-white dark:bg-gray-800 border-2">
-        <div
-          className={`w-[16px] h-[16px] rounded-full ${
-            selected ? "bg-main" : ""
-          }`}
-        ></div>
+      <p className="font-medium">{answer.title}</p>
+      <div
+        className={`flex items-center justify-center w-5 h-5 rounded-full border-2 ${
+          selected ? "border-white" : "border-current"
+        }`}
+      >
+        {selected && <div className="w-3 h-3 rounded-full bg-white" />}
       </div>
     </div>
   );

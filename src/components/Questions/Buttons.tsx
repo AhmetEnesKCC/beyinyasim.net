@@ -38,8 +38,8 @@ const Button: ButtonsType = ({ label, type, disabled }) => {
   return (
     <button
       disabled={disabled ? disabled : false}
-      className={`flex-1 hover:bg-opacity-20 bg-main bg-opacity-5 dark:bg-opacity-10 font-bold text-main py-3 px-2 rounded transition-colors ${
-        disabled ? "!bg-slate-100 !text-black" : ""
+      className={`flex-1 font-semibold py-3 px-5 rounded-full transition-all shadow-md bg-gradient-to-r from-main to-green-600 text-white hover:brightness-110 ${
+        disabled ? "!bg-gray-300 !text-gray-500 hover:brightness-100" : ""
       }`}
       onClick={handleClick}
     >

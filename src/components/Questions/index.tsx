@@ -19,7 +19,7 @@ const Wrapper = () => {
 
   return (
     <div
-      className="shadow-md w-[80vw] flex flex-col bg-white dark:bg-gray-800 px-3 py-4 rounded-md transition-colors animate-fade-in"
+      className="max-w-2xl w-full flex flex-col bg-white/70 dark:bg-gray-800/70 backdrop-blur-lg border border-gray-200 dark:border-gray-700 shadow-xl px-6 py-6 rounded-2xl transition-all animate-fade-in"
     >
       <Status length={questions.length} {...status} />
       <Question title={currentQuestion?.title} />
