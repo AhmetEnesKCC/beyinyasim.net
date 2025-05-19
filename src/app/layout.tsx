@@ -2,7 +2,7 @@
 
 import Header from "@/components/Header";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import { useEffect } from "react";
 import useQuestionStore from "@/state/useQuestionStore";
 import useThemeStore from "@/state/useThemeStore";
@@ -10,7 +10,7 @@ import { nanoid } from "nanoid";
 
 import qData from "@/data/mock.json";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({ subsets: ["latin"], weight: ["400", "700"] });
 
 export default function RootLayout({
   children,
@@ -67,7 +67,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-white dark:bg-gray-900 text-black dark:text-white transition-colors min-h-screen`}
+        className={`${poppins.className} min-h-screen bg-gradient-to-br from-slate-100 to-slate-300 dark:from-gray-900 dark:to-black text-gray-900 dark:text-gray-100 transition-colors`}
       >
         <Header />
         {children}

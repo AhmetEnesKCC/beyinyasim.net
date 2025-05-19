@@ -52,15 +52,15 @@ const Finish = () => {
 
   return (
     <div
-      className="shadow-md w-[60vw] flex flex-col items-center bg-white dark:bg-gray-800 px-3 py-4 mx-auto mt-12 rounded-md transition-colors animate-fade-in"
+      className="max-w-xl w-full flex flex-col items-center bg-white/70 dark:bg-gray-800/70 backdrop-blur-lg border border-gray-200 dark:border-gray-700 shadow-xl px-6 py-8 mx-auto mt-12 rounded-2xl transition-all animate-fade-in"
     >
-      <h3 className="mb-8">Beyin Yaşın</h3>
-      <h4 className="text-4xl text-main font-bold">
+      <h3 className="mb-4 text-lg font-semibold">Beyin Yaşın</h3>
+      <h4 className="text-5xl text-main font-extrabold">
         {isNaN(result) ? "" : result}
       </h4>
       <button
         onClick={() => handleRestart()}
-        className="mt-12 bg-main bg-opacity-10 text-main px-3 py-2 rounded-md hover:brightness-110"
+        className="mt-12 bg-gradient-to-r from-main to-green-600 text-white px-4 py-2 rounded-full font-semibold hover:brightness-110"
       >
         Tekrar Çöz
       </button>
@@ -69,9 +69,9 @@ const Finish = () => {
         href={`http://twitter.com/share?text=${
           "benim beyin yaşım " + result
         }&url=https://beyinyasim.net &hashtags=beyinyasim`}
-        className="mt-6 bg-transparent px-4 py-3 cursor-pointer hover:bg-main hover:bg-opacity-10 rounded-md"
+        className="mt-6 p-3 cursor-pointer rounded-full bg-white/60 dark:bg-gray-800/60 hover:bg-white/80 dark:hover:bg-gray-700 transition-all"
       >
-        <FaTwitter className="text-main hover:scale-105 " size={24} />
+        <FaTwitter className="text-main" size={24} />
       </a>
     </div>
   );
